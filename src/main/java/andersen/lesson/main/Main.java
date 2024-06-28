@@ -1,8 +1,8 @@
 package andersen.lesson.main;
 
-import model.BusTicket;
-import service.BusTicketService;
-import tickettype.TicketType;
+import andersen.lesson.model.BusTicket;
+import andersen.lesson.service.BusTicketService;
+import andersen.lesson.tickettype.TicketType;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
