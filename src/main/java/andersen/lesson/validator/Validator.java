@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 public class Validator {
 
     public BigDecimal validateByPrice(BigDecimal price) {
-        if (price.compareTo(new BigDecimal(0)) < 0) {
+        if (price.compareTo(BigDecimal.ZERO) < 0) {
             System.out.println("The price is less than or equal to 0");
         }
         return price;
