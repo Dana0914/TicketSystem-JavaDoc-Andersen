@@ -1,12 +1,14 @@
-package service;
+package andersen.lesson.service;
 
-import model.BusTicket;
-import tickettype.TicketType;
+
+import andersen.lesson.model.BusTicket;
+import andersen.lesson.tickettype.TicketType;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+
 
 public class BusTicketService {
     List<BusTicket> busTickets;

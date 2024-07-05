@@ -1,8 +1,8 @@
-package model;
+package andersen.lesson.model;
 
+import andersen.lesson.tickettype.TicketType;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import tickettype.TicketType;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
